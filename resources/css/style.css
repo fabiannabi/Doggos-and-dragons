@@ -1,0 +1,134 @@
+/*BASIC SET UP*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  font-family: "Lora", "serif";
+  background-color: #a1a608;
+  color: rgb(0, 0, 0);
+}
+button a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+button {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify;
+  display: flex;
+  border-radius: 1.5em;
+  font-size: 1.3em;
+  padding: 0.5em;
+  background-color: #ee9314c0;
+  border-bottom: transparent;
+  margin-bottom: 0.5em;
+}
+
+/*HEADER*/
+
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px);
+}
+
+header {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 8em;
+}
+
+h1 {
+  position: relative;
+  background-color: #f27a356b;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.doggo-select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 3em;
+}
+
+.doggo-select img {
+  position: relative;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  max-height: 20em;
+  height: 20em;
+  max-width: 20%;
+  min-width: 250px;
+  margin: 1.5em;
+}
+
+/*doggo class*/
+.fas {
+  color: white;
+  padding: 0.5em;
+  margin-left: 1em;
+}
+h2 {
+  position: relative;
+  background-color: #f27a356b;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+.dogo-sheet {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 3em;
+  flex-wrap: wrap;
+}
+
+table {
+  min-width: 250px;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 55%;
+}
+
+th {
+  height: 3em;
+  font-size: 1.5em;
+  background-color: #e29935;
+}
+
+td {
+  height: 7em;
+  background-color: #fdb24a;
+  font-size: 1.05em;
+  font-weight: bold;
+  text-align: justify;
+  padding: 1em;
+}
+
+.ability-name {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.doggo-class {
+  text-align: center;
+}
